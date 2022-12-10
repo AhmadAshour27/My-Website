@@ -1,0 +1,134 @@
+.main-head {
+    grid-area: header;
+    font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+}
+.column {
+  position: flex;
+  width: 100%;
+}
+    .content {
+    grid-area: content;
+    }
+    .main-nav {
+    grid-area: nav;
+    }
+   
+    body {
+      min-height: 150vh;
+    }
+      
+    
+    
+    .main-footer {
+    grid-area: footer;
+    text-align:center;
+    }
+    #layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0px;
+    grid-template-areas:
+
+    "header header"
+    "nav nav"
+    "content content"
+    "footer footer";
+    }
+    img{
+    width: 60px;
+    height: 50px;
+    }
+
+    body{
+    background-size: cover;
+    font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+    font-size: auto;
+    text-align: justify;
+
+
+    }
+    .main-nav a{
+    color:#03783f;
+    float: right;
+    text-decoration: none;
+    padding-right: 10px;
+    font-weight: 900;
+    font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+
+    }
+    .main-nav a:hover{
+    text-decoration: underline;
+    }
+    table {
+    font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border: solid;
+    height: 500px;
+  align-content: space-evenly;
+    }
+    
+    th{
+      background-color: #03783f;
+    }
+    tr:nth-child(even) {
+    background-color: rgba(185, 255, 171, 0.518);
+    }
+    caption{
+      font-size: 40px;
+      font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+      margin-bottom: 40px;
+
+    }
+
+    .side-head{
+      display: grid;
+      position: absolute;
+        text-align: center;
+        right: 0px;
+        bottom: 15px;
+        width: 100%;
+        height: 60px;   
+        background-size: cover;
+    font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+    font-size: 30px;
+
+    }
+    .fav-page{
+      position: absolute;
+        text-align: center;
+        left: 25px;
+        bottom: 15px;
+        width: 100%;
+        height: 60px;   
+        background-size: cover;
+    font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+
+    }
+
+
+
+    footer {
+        position: fixed;
+        text-align: center;
+  
+        left: 0px;
+        bottom: 0;
+        width: 100%;
+        height: 60px;   
+     }
+     
+    
+
+     .demo{
+      position: flex;
+      left: 25px;
+
+     }
+     button{
+      font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+      font-size: large;
+      background-color: #03783f;
+      border: solid;
+     }

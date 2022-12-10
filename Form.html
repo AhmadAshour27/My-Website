@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ahmad Ashour - Contact Me</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+   </head>
+
+   <body>
+    <div class="layout">
+      <header class="main-head"></header>
+      <nav class="main-nav">
+          <ul>
+              <a href="index.html">Resume</a>
+              <a href="Coursework.html">Courses</a>
+              <a href="mainpage.html">Main Page</a>
+      </nav>
+      <link type="text/css" rel="stylesheet" href="form.css">
+      <link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
+
+      <main class="content">
+          <form action="mailto:ahmad.ashour@ucdenver.edu" method="POST" id="rating" name="frmRating">
+              <h1>Contact Me</h1>
+         
+              <input type="hidden" name="txtH" value="Course Rating Form" />
+            
+              <div class="formRow">
+                  <label for="tn">Your Name:</label>
+                  <input type="text" name="txtName" id="tn" size="30" />
+              </div>
+         
+              <div class="formRow">
+                  <label for="te">Email Address:</label>
+                  <input type="email" name="txtEmail" id="te" size="30" />
+              </div>
+         
+              <div class="formRow">
+                  <label for="ld">Communication Preference:</label>
+                  <select name="lstDesc" id="ld">
+                      <option>WhatsApp</option>
+                      <option selected="selected">Email</option>
+                      <option>Cell</option>
+                  </select>
+              </div>
+     
+         
+              <label id="lsug" for="tsug">Describe your question:</label><br />
+              <textarea name="suggest" id="tsug" rows="5" cols="60"></textarea> <br />
+         
+              <div class="buttonRow">
+                  <input type="submit" value="Submit" />&nbsp;&nbsp;
+
+                  <input type="reset" value="Reset" />
+              </div>
+          </form>
+      <footer class="main-footer">Copyright 2022 by Ahmad Ashour</footer>
+   </div>
+   </body>
+   
